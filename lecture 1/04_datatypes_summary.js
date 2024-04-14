@@ -53,5 +53,5 @@ let myInstaName = "ankitshaarmaa";
 let anotherName = myInstaName;
 
 anotherName = "Ankit Sharma";
-console.log(anotherName);
-console.log(myInstaName);
+// console.log(anotherName);
+// console.log(myInstaName);
