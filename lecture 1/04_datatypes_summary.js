@@ -37,3 +37,21 @@ const Addition = function(a) {   // functions
        console.log(4+5);
 }
 // Addition();
+
+
+
+
+
+// ++++++++++++ Memory in JS +++++++++++++++++
+
+// 1. Stack Memory   => Primitive Data type  (Copy milti hai yha pr)
+// 2. Heap Memory    => Reference (Non - primitive)  (refrence milta hai)
+
+
+// 1. Stack Memory
+let myInstaName = "ankitshaarmaa";
+let anotherName = myInstaName;
+
+anotherName = "Ankit Sharma";
+console.log(anotherName);
+console.log(myInstaName);
