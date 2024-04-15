@@ -1,7 +1,7 @@
-let scroe = "19";   // convert string into number
-// console.log(typeof scroe);
+let score = "19";   // convert string into number
+// console.log(typeof score);
 
-let convert = Number(scroe);
+let convert = Number(score);
 // console.log(typeof convert);
 
 // "33" => 33

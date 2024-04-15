@@ -2,7 +2,7 @@
 
 // 1. Primitive Data type
 
-// 7 types : String, Number, Boolean, Undefined, Null, Sysmbol, BigInt
+// 7 types : String, Number, Boolean, Undefined, Null, Symbol, BigInt
 
 let score = 89;  //Number
 let name = "Ankit Sharma";  //String
@@ -13,8 +13,8 @@ const isLogged = true; //Boolean
 const outsideTemp = null;  //Null
 let userEmail;  //Undefined
 
-const id = Symbol('123'); //Sysmbol
-const anotherId = Symbol('123');  //Sysmbol
+const id = Symbol('123'); //Symbol
+const anotherId = Symbol('123');  //Symbol
 
 // console.log(id === anotherId);
 
