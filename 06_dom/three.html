@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body {
+            background-color: #212121;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+  <script>
+   const heading = document.createElement('h1');    // create new element
+   heading.className = "heading";   // add class
+   heading.id = "header";  // add id
+   heading.setAttribute("title", "heading name"); // set Attributes
+   heading.style.backgroundColor = "green";
+   heading.style.padding = "12px"
+//    heading.innerText = "This is a heading"  // add content 
+   
+   const createListTag = document.createTextNode("Chai aur code");  // add content 
+   heading.appendChild(createListTag);
+
+   document.body.appendChild(heading);  // display heading in page
+   console.log(heading);
+  </script>
+</html>
